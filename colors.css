@@ -113,6 +113,8 @@ body {
   text-align: center; }
 
 table {
+  border-collapse: seperate;
+  border-spacing: 5px;
   margin: 0 auto; }
 
 td {
