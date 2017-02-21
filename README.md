@@ -2,32 +2,55 @@
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+The Boost theme for Moodle is a bootstrap based theme that allows the admin to upload preset files with style rules. 
+
+The Color function preset allows the admin to change all of the main colors of the site just selecting a new brand color in the Boost settings page. It is possible because all the main colors are obtained by Sass functions over the brand color.
+
+The preset is based on the default Boost preset with a few style rules added for increase the visual impact of the colors.
+
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+It is not necessary to code to use this preset, just install and change the brand color in the Boost settings page.  
+
+The code bellow is the part of the preset that generate the main colors with some Sass functions over the brand color.
+
+```scss
+$brand-primary:     #4580B9 !default;
+$brand-info:        adjust-color($brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$brand-success:     adjust-color($brand-primary, $hue: -115deg, $lightness: -10%) !default;
+$brand-warning:     adjust-color(complement($brand-primary), $red: 50) !default;
+$brand-danger:      adjust-color($brand-warning, $saturation: 50%, $lightness: -15%) !default;
+```
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This new preset feature is the simplest way to customize Moodle and works really fine. I'm very glad with this innovation and with the possibility of helping to improve it.
+
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+- Download the Color Function Preset [Link to raw file](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preset-colorfunction.scss)
+- Go to the Boost settings page (Dashboard > Site administration > Appearance > Themes > Boost).
+- Click to add Additional theme preset files and upload it.
+- Click to Save changes to view your new preset option in the Theme preset dropdown.
+- Select the new preset in the Theme preset dropdown and change the color if you want.
+- Save again and it's all done.
+
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Boost presets - [Link to Moodle Docs](https://docs.moodle.org/dev/Boost_Presets)
+Sass Functions - [Link to Sass Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
 
-## Tests
-
-Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Please let me know if you want to improve something in this preset. I will appreciate any suggestion and I'm able to help on new features.
+
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+GNU General Public License v3 (GPL-3)  
+
+You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.
