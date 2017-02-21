@@ -192,21 +192,35 @@ $breadcrumb-divider-rtl: "/" !default;
  * Color Function style rules
  * Overwrite boost default style rules
  */
+// Site top navbar
 .navbar-light {
     background-color:   lighten($brand-info, 10%);
 }
+// Site left navbar
 #nav-drawer {
     background-color:   darken($brand-primary, 15%);
 }
+// Page header
 .page-context-header {
-    background-color:   lighten($brand-info, 20%);  
+    background-color:   lighten($brand-info, 20%); 
     color:              darken($brand-primary, 20%);
     padding:            0.4rem 1rem;
 }
+// Courses list
 .coursebox {
     @extend .page-context-header;
     margin: 1rem 0;
 }
+// Footer
 #page-footer a {
     color: $brand-info;
+}
+#page-footer .text-success {
+    color: lighten($brand-success, 20%) !important;
+}
+#page-footer .text-warning {
+    color: lighten($brand-warning, 20%) !important;
+}
+#page-footer .text-danger {
+    color: lighten($brand-danger, 20%) !important;
 }
