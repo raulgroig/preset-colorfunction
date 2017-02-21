@@ -1,0 +1,46 @@
+/*
+ * Default Boost theme
+ */
+$brand-primary: 		#00acdf !default;
+$brand-info:            #5bc0de !default;
+$brand-success:         #77b300 !default;
+$brand-warning:         #ff8800 !default;
+$brand-danger:          #ff4136 !default;
+
+#brand-primary { 	background-color: $brand-primary; 	}
+#brand-info { 		background-color: $brand-info; 		}
+#brand-success {	background-color: $brand-success;	}
+#brand-warning {	background-color: $brand-warning;	}
+#brand-danger {		background-color: $brand-danger;	}
+
+/*
+ * Color Function
+ */ 
+// Default Blue
+$cf-brand-primary:          #4580B9 !default;
+$cf-brand-info:             adjust-color($cf-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cf-brand-success:          adjust-color($cf-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cf-brand-warning:          adjust-color(complement($cf-brand-primary), $red: 50) !default;
+$cf-brand-danger:           adjust-color($cf-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+
+#cf-brand-primary {	background-color: $cf-brand-primary;	}
+#cf-brand-info {	background-color: $cf-brand-info;		}
+#cf-brand-success {	background-color: $cf-brand-success;	}
+#cf-brand-warning {	background-color: $cf-brand-warning;	}
+#cf-brand-danger {	background-color: $cf-brand-danger;		}
+
+
+// Element rules
+body {
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+}
+td {
+	height: 90px;
+	margin: 5px;
+}
+.colorBox {
+	color: #fff;
+}

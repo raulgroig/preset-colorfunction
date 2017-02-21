@@ -1,0 +1,51 @@
+/*
+ * Default Boost theme
+ */
+#brand-primary {
+  background-color: #00acdf; }
+
+#brand-info {
+  background-color: #5bc0de; }
+
+#brand-success {
+  background-color: #77b300; }
+
+#brand-warning {
+  background-color: #ff8800; }
+
+#brand-danger {
+  background-color: #ff4136; }
+
+/*
+ * Color Function
+ */
+#cf-brand-primary {
+  background-color: #4580B9; }
+
+#cf-brand-info {
+  background-color: #abbfd2; }
+
+#cf-brand-success {
+  background-color: #79a658; }
+
+#cf-brand-warning {
+  background-color: #eb7e45; }
+
+#cf-brand-danger {
+  background-color: #e44e00; }
+
+body {
+  text-align: center; }
+
+table {
+  margin: 0 auto; }
+
+td {
+  height: 90px;
+  margin: 5px; }
+
+.colorBox {
+  color: #fff;
+  width: 120px; }
+
+/*# sourceMappingURL=colors.css.map */
