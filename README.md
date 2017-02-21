@@ -1,12 +1,16 @@
 # Color Function Preset for Boost Moodle Theme
 
+![Preset Preview](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preview.png)
+
 ## Synopsis
 
 The Boost theme for Moodle is a bootstrap based theme that allows the admin to upload preset files with style rules. 
 
-The Color function preset allows the admin to change all of the main colors of the site just selecting a new brand color in the Boost settings page. It is possible because all the main colors are obtained by Sass functions over the brand color.
+The Color function preset allows to change all of the main colors of the site just selecting a new brand color in the Boost settings page. It is possible because all the main colors are obtained by Sass functions over the brand color.
 
 The preset is based on the default Boost preset with a few style rules added for increase the visual impact of the colors.
+
+You can see a comparison of the default Boost color palette and the default Color Function palette and some suggestions of brand colors to use with this preset [here](http://www.raulgroig.com/preset-colorfunction/) 
 
 
 ## Code Example
@@ -30,7 +34,7 @@ This new preset feature is the simplest way to customize Moodle and works really
 
 ## Installation
 
-- Download the Color Function Preset [Link to raw file](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preset-colorfunction.scss)
+- Download the Color Function Preset: [Link to raw file](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preset-colorfunction.scss)
 - Go to the Boost settings page (Dashboard > Site administration > Appearance > Themes > Boost).
 - Click to add Additional theme preset files and upload it.
 - Click to Save changes to view your new preset option in the Theme preset dropdown.
@@ -46,7 +50,7 @@ Sass Functions - [Link to Sass Documentation](http://sass-lang.com/documentation
 
 ## Contributors
 
-Please let me know if you want to improve something in this preset. I will appreciate any suggestion and I'm able to help on new features.
+Please let me know if you want to improve something in this preset. I will appreciate any suggestion and I'm able to help on new features. Contact by e-mail [raulgroig@gmail.com](mailto:raulgroig@gmail.com)
 
 
 ## License
