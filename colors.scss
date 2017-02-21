@@ -1,11 +1,11 @@
 /*
  * Default Boost theme
  */
-$brand-primary: 		#00acdf !default;
-$brand-info:            #5bc0de !default;
-$brand-success:         #77b300 !default;
-$brand-warning:         #ff8800 !default;
-$brand-danger:          #ff4136 !default;
+$brand-primary:	#00acdf !default;
+$brand-info:    #5bc0de !default;
+$brand-success: #77b300 !default;
+$brand-warning: #ff8800 !default;
+$brand-danger:  #ff4136 !default;
 
 #brand-primary { 	background-color: $brand-primary; 	}
 #brand-info { 		background-color: $brand-info; 		}
@@ -17,11 +17,11 @@ $brand-danger:          #ff4136 !default;
  * Color Function
  */ 
 // Default Blue
-$cf-brand-primary:          #4580B9 !default;
-$cf-brand-info:             adjust-color($cf-brand-primary, $saturation: -15%, $lightness: 25%) !default;
-$cf-brand-success:          adjust-color($cf-brand-primary, $hue: -115deg, $saturation: -15%) !default;
-$cf-brand-warning:          adjust-color(complement($cf-brand-primary), $red: 50) !default;
-$cf-brand-danger:           adjust-color($cf-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+$cf-brand-primary:	#4580b9 !default;
+$cf-brand-info:     adjust-color($cf-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cf-brand-success:  adjust-color($cf-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cf-brand-warning:  adjust-color(complement($cf-brand-primary), $red: 50) !default;
+$cf-brand-danger:   adjust-color($cf-brand-warning, $saturation: 50%, $lightness: -15%) !default;
 
 #cf-brand-primary {	background-color: $cf-brand-primary;	}
 #cf-brand-info {	background-color: $cf-brand-info;		}
@@ -29,6 +29,70 @@ $cf-brand-danger:           adjust-color($cf-brand-warning, $saturation: 50%, $l
 #cf-brand-warning {	background-color: $cf-brand-warning;	}
 #cf-brand-danger {	background-color: $cf-brand-danger;		}
 
+// Red
+$cfr-brand-primary:	#dd382d !default;
+$cfr-brand-info:    adjust-color($cfr-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cfr-brand-success: adjust-color($cfr-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cfr-brand-warning: adjust-color(complement($cfr-brand-primary), $red: 50) !default;
+$cfr-brand-danger:  adjust-color($cfr-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+
+#cfr-brand-primary {	background-color: $cfr-brand-primary;	}
+#cfr-brand-info {		background-color: $cfr-brand-info;		}
+#cfr-brand-success {	background-color: $cfr-brand-success;	}
+#cfr-brand-warning {	background-color: $cfr-brand-warning;	}
+#cfr-brand-danger {		background-color: $cfr-brand-danger;	}
+
+// Green
+$cfg-brand-primary:	 #6d964f !default;
+$cfg-brand-info:     adjust-color($cfg-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cfg-brand-success:  adjust-color($cfg-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cfg-brand-warning:  adjust-color(complement($cfg-brand-primary), $red: 50) !default;
+$cfg-brand-danger:   adjust-color($cfg-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+
+#cfg-brand-primary {	background-color: $cfg-brand-primary;	}
+#cfg-brand-info {		background-color: $cfg-brand-info;		}
+#cfg-brand-success {	background-color: $cfg-brand-success;	}
+#cfg-brand-warning {	background-color: $cfg-brand-warning;	}
+#cfg-brand-danger {		background-color: $cfg-brand-danger;	}
+
+// Orange
+$cfo-brand-primary:	 #ff7806 !default;
+$cfo-brand-info:     adjust-color($cfo-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cfo-brand-success:  adjust-color($cfo-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cfo-brand-warning:  adjust-color(complement($cfo-brand-primary), $red: 50) !default;
+$cfo-brand-danger:   adjust-color($cfo-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+
+#cfo-brand-primary {	background-color: $cfo-brand-primary;	}
+#cfo-brand-info {		background-color: $cfo-brand-info;		}
+#cfo-brand-success {	background-color: $cfo-brand-success;	}
+#cfo-brand-warning {	background-color: $cfo-brand-warning;	}
+#cfo-brand-danger {		background-color: $cfo-brand-danger;	}
+
+// Brown
+$cfb-brand-primary:	 #b16740 !default;
+$cfb-brand-info:     adjust-color($cfb-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cfb-brand-success:  adjust-color($cfb-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cfb-brand-warning:  adjust-color(complement($cfb-brand-primary), $red: 50) !default;
+$cfb-brand-danger:   adjust-color($cfb-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+
+#cfb-brand-primary {	background-color: $cfb-brand-primary;	}
+#cfb-brand-info {		background-color: $cfb-brand-info;		}
+#cfb-brand-success {	background-color: $cfb-brand-success;	}
+#cfb-brand-warning {	background-color: $cfb-brand-warning;	}
+#cfb-brand-danger {		background-color: $cfb-brand-danger;	}
+
+// Purple
+$cfp-brand-primary:	 #6d499c !default;
+$cfp-brand-info:     adjust-color($cfp-brand-primary, $saturation: -15%, $lightness: 25%) !default;
+$cfp-brand-success:  adjust-color($cfp-brand-primary, $hue: -115deg, $saturation: -15%) !default;
+$cfp-brand-warning:  adjust-color(complement($cfp-brand-primary), $red: 50) !default;
+$cfp-brand-danger:   adjust-color($cfp-brand-warning, $saturation: 50%, $lightness: -15%) !default;
+
+#cfp-brand-primary {	background-color: $cfp-brand-primary;	}
+#cfp-brand-info {		background-color: $cfp-brand-info;		}
+#cfp-brand-success {	background-color: $cfp-brand-success;	}
+#cfp-brand-warning {	background-color: $cfp-brand-warning;	}
+#cfp-brand-danger {		background-color: $cfp-brand-danger;	}
 
 // Element rules
 body {
@@ -42,5 +106,5 @@ td {
 	margin: 5px;
 }
 .colorBox {
-	color: #fff;
+	width: 120px;
 }

@@ -20,7 +20,7 @@
  * Color Function
  */
 #cf-brand-primary {
-  background-color: #4580B9; }
+  background-color: #4580b9; }
 
 #cf-brand-info {
   background-color: #abbfd2; }
@@ -34,6 +34,81 @@
 #cf-brand-danger {
   background-color: #e44e00; }
 
+#cfr-brand-primary {
+  background-color: #dd382d; }
+
+#cfr-brand-info {
+  background-color: #e6a8a3; }
+
+#cfr-brand-success {
+  background-color: #543fcb; }
+
+#cfr-brand-warning {
+  background-color: #5fd2dd; }
+
+#cfr-brand-danger {
+  background-color: #00dbf0; }
+
+#cfg-brand-primary {
+  background-color: #6d964f; }
+
+#cfg-brand-info {
+  background-color: #b0bfa6; }
+
+#cfg-brand-success {
+  background-color: #85606d; }
+
+#cfg-brand-warning {
+  background-color: #aa4f96; }
+
+#cfg-brand-danger {
+  background-color: #a10c80; }
+
+#cfo-brand-primary {
+  background-color: #ff7806; }
+
+#cfo-brand-info {
+  background-color: #f6be8f; }
+
+#cfo-brand-success {
+  background-color: #8b19ec; }
+
+#cfo-brand-warning {
+  background-color: #388dff; }
+
+#cfo-brand-danger {
+  background-color: #0064eb; }
+
+#cfb-brand-primary {
+  background-color: #b16740; }
+
+#cfb-brand-info {
+  background-color: #cfb1a2; }
+
+#cfb-brand-success {
+  background-color: #73529f; }
+
+#cfb-brand-warning {
+  background-color: #728ab1; }
+
+#cfb-brand-danger {
+  background-color: #1757c0; }
+
+#cfp-brand-primary {
+  background-color: #6d499c; }
+
+#cfp-brand-info {
+  background-color: #b0a2c3; }
+
+#cfp-brand-success {
+  background-color: #5a8b73; }
+
+#cfp-brand-warning {
+  background-color: #aa9c49; }
+
+#cfp-brand-danger {
+  background-color: #9e8808; }
+
 body {
   text-align: center; }
 
@@ -45,7 +120,6 @@ td {
   margin: 5px; }
 
 .colorBox {
-  color: #fff;
   width: 120px; }
 
 /*# sourceMappingURL=colors.css.map */
