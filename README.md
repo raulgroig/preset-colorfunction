@@ -4,7 +4,7 @@
 
 ## Synopsis
 
-The Boost theme for Moodle is a bootstrap based theme that allows the admin to upload preset files with style rules. 
+The Boost theme for Moodle is a bootstrap based theme that allows to upload preset files with style rules. 
 
 The Color function preset allows to change all the main colors of the theme just selecting a new brand color in the Boost settings page. It is possible because all the main colors are obtained by Sass functions over the brand color.
 
