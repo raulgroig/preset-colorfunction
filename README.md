@@ -6,11 +6,15 @@
 
 The Boost theme for Moodle is a bootstrap based theme that allows the admin to upload preset files with style rules. 
 
-The Color function preset allows to change all of the main colors of the site just selecting a new brand color in the Boost settings page. It is possible because all the main colors are obtained by Sass functions over the brand color.
+The Color function preset allows to change all the main colors of the theme just selecting a new brand color in the Boost settings page. It is possible because all the main colors are obtained by Sass functions over the brand color.
 
 The preset is based on the default Boost preset with a few style rules added for increase the visual impact of the colors.
 
-You can see a comparison of the default Boost color palette and the default Color Function palette and some suggestions of brand colors to use with this preset [here](http://www.raulgroig.com/preset-colorfunction/) 
+To see a comparison between the Boost color palette and the Color Function palette and some suggestions of brand colors to use with this preset [click here](http://www.raulgroig.com/preset-colorfunction/).  
+
+Just changing the brand color to brown (#b16740) and the theme will looks like this ![Preset Preview](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preview-brown.png)  
+
+The Function Color Preset is available at the [Boost Presets Repository](https://moodle.net/mod/data/view.php?d=13&rid=639)
 
 
 ## Code Example
@@ -34,23 +38,23 @@ This new preset feature is the simplest way to customize Moodle and works really
 
 ## Installation
 
-- Download the Color Function Preset: [Link to raw file](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preset-colorfunction.scss)
+- Download the Color Function Preset: [Boost Presets Repository](https://moodle.net/mod/data/view.php?d=13&rid=639) or [Raw File](https://raw.githubusercontent.com/raulgroig/preset-colorfunction/master/preset-colorfunction.scss)
 - Go to the Boost settings page (Dashboard > Site administration > Appearance > Themes > Boost).
 - Click to add Additional theme preset files and upload it.
-- Click to Save changes to view your new preset option in the Theme preset dropdown.
-- Select the new preset in the Theme preset dropdown and change the color if you want.
+- Save changes to view your new preset option in the Theme preset dropdown.
+- Select the new preset in the Theme preset dropdown and change the brand color if you want.
 - Save again and it's all done.
 
 
 ## API Reference
 
-Boost presets - [Link to Moodle Docs](https://docs.moodle.org/dev/Boost_Presets)
-Sass Functions - [Link to Sass Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
+- Boost presets - [Link to Moodle Docs](https://docs.moodle.org/dev/Boost_Presets)  
+- Sass Functions - [Link to Sass Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
 
 
 ## Contributors
 
-Please let me know if you want to improve something in this preset. I will appreciate any suggestion and I'm able to help on new features. Contact by e-mail [raulgroig@gmail.com](mailto:raulgroig@gmail.com)
+Please let me know if you want to improve something in this preset. I will appreciate any suggestion and I'm able to help on new features. Contact me by e-mail: [raulgroig@gmail.com](mailto:raulgroig@gmail.com)
 
 
 ## License
